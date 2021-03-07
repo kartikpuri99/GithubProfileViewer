@@ -1,0 +1,50 @@
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture{
+  display:contents;
+}
+
+
+.profile-picture-image{
+  border-radius: 50%;
+  width: 40%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: var(--green);
+  padding: 0;
+}
+
+.profile-name{
+  font-size: 2.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: var(--turquoise-green);
+}
+
+.profile-login{
+  font-size: 1.7rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: var(--green);
+} 
+
+.profile-login a{
+  color: var(--green);
+  text-decoration: none;
+  font-style: normal;
+  transition: all 0.2s;
+}
+
+.profile-login a:hover{
+  font-style: italic;
+}
+
+.profile-joined{
+  font-family: 'Lato', sans-serif;
+  color: var(--turquoise-green);
+}

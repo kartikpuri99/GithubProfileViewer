@@ -1,0 +1,48 @@
+.repo-card {
+  font-family: 'Lato', sans-serif;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 30px -15px;
+  width: 100%;
+  height: 100%;
+  border: 1px dashed var(--green);
+  border-radius: 5px;
+}
+
+.repo-card-link,.repo-card-link:link,.repo-card-link:active,.repo-card-link:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.repo-card-heading {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.repo-card-description {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.repo-card-extras {
+  display: flex;
+  font-size: 0.7rem;
+  color: grey;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.repo-card-icons {
+  display: flex;
+}
+
+.language {
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  margin-right: 0.25rem;
+}

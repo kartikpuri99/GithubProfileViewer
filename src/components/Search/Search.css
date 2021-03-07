@@ -1,0 +1,119 @@
+.search-screen {
+  width: 100%;
+  height: 100vh;
+  /* background-color: var(--dark-jungle-green); */
+  background: #093028;
+  /* fallback for old browsers */
+  background-image: linear-gradient(to top, rgb(21, 51, 39) 0%, #081c15ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.particles-custom {
+  z-index: 1;
+  width: 100%;
+}
+
+.center-element {
+  z-index: 200;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* font-family: 'Lato', sans-serif; */
+  /* display: flex; */
+  text-transform: capitalize;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.search-head-icon i {
+  color: var(--green);
+  font-size: 5rem;
+}
+
+.search-heading {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--turquoise-green);
+}
+
+.search-bar {
+  width: 100%;
+}
+
+/* .form-group{
+  width: 100%;
+} */
+
+form .form-control {
+  border-radius: 200px;
+  width: 100%;
+  border: none;
+  background-color: var(--brunswick-green);
+  padding: 1rem;
+  color: var(--turquoise-green);
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+  transition: all 0.2s;
+}
+
+form .form-control::placeholder {
+  font-family: 'Lato', sans-serif;
+  color: var(--bottle-green);
+}
+
+form .form-control:focus {
+  transition: all 0.2s;
+  background-color: var(--brunswick-green);
+  box-shadow: none;
+  color: var(--turquoise-green);
+  font-family: 'Lato', sans-serif;
+  border: 3px solid green;
+}
+
+.search-button {
+  background-color: transparent;
+  margin-left: 10px;
+  border-radius: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: var(--green);
+}
+
+.search-button:hover {
+  background-color: var(--green);
+  border-color: var(--green);
+
+}
+
+@media only screen and (max-width:570px) {
+
+  .center-element {
+    width: max-content;
+  }
+
+  .search-head-icon i {
+    font-size: 2.5rem;
+  }
+
+  .search-heading {
+    font-size: 1.25rem;
+  }
+
+  form .form-control {
+    font-size: 0.8rem;
+  }
+
+  .search-button {
+    padding: 0;
+    height: 50px;
+    width: 65px;
+    font-size: 0.8rem;
+  }
+
+}

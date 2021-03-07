@@ -1,0 +1,23 @@
+.chart-screen{
+  margin-top: -3rem;
+  /* z-index: 200; */
+
+}
+
+.language-card{
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 30px -15px;
+}
+
+.language-card-heading{
+  margin-bottom: 20px;
+  display: inline-block;
+  text-align: center;
+  border-bottom: 2px dashed grey;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: 'Lato',sans-serif;
+}
